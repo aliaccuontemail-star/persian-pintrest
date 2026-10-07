@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="create" android:enabled="true" android:icon="@drawable/ic_bumo" android:shortcutShortLabel="ساخت پین">
+        <intent android:action="android.intent.action.VIEW" android:data="bumo://create" />
+    </shortcut>
+    <shortcut android:shortcutId="search" android:enabled="true" android:icon="@drawable/ic_bumo" android:shortcutShortLabel="جستجو">
+        <intent android:action="android.intent.action.VIEW" android:data="bumo://search" />
+    </shortcut>
+</shortcuts>
